@@ -2,7 +2,7 @@ import { task } from "hardhat/config";
 import "@nomiclabs/hardhat-waffle";
 import "solidity-coverage";
 import * as dotenv from "dotenv";
-//import "./tasks/tasks.js"
+import "./tasks/tasks.ts"
 
 dotenv.config();
 

@@ -17,7 +17,7 @@ npx hardhat coverage
 #### Deploy local
 ```
 npx hardhat node
-npx hardhat run --network localhost scripts/deploy.js
+npx hardhat run --network localhost scripts/deploy.ts
 ```
 
 #### Deploy rinkeby
@@ -28,5 +28,5 @@ PRIVATE_KEY=<YOUR_BURNER_WALLET_PRIVATE_KEY>
 ```
 
 ```
-npx hardhat run --network rinkeby scripts/deploy.js
+npx hardhat run --network rinkeby scripts/deploy.ts
 ```

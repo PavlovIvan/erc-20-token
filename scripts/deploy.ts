@@ -1,3 +1,5 @@
+import { ethers } from "hardhat";
+
 async function main() {
     const [owner] = await ethers.getSigners();
 
